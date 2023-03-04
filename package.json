@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin":{
-    "masood2000_project04_currency_converter":"bin/index.js"
-      },
+  "bin": {
+    "masood2000_project04_currency_converter": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/prompt-sync": "^4.2.0",
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.1.4",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

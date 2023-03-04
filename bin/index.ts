@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
+import PromptSync from "prompt-sync";
 
 import chalkAnimation from "chalk-animation"
 
